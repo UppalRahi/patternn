@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int side, i, j;
+    cout << "enter side of the square :";
+    cin >> side;
+    cout << endl;
+    for (i = 0; i <= side; i++)
+    {
+        for (j = 0; j <= side; j++)
+        {
+            cout << "& ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
